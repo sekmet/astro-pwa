@@ -1,0 +1,23 @@
+{
+  "name": "@meusiterapido/base",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/image": "^0.12.1",
+    "@astrojs/react": "^1.2.2",
+    "@astrojs/sitemap": "^1.0.0",
+    "astro": "^1.9.0",
+    "sharp": "^0.31.3"
+  },
+  "devDependencies": {
+    "astro-webmanifest": "^0.4.3"
+  }
+}
